@@ -1,0 +1,19 @@
+Cuando leí el enunciado, lo primero que hice fue parar, y pensar qucómo podía solucionar los problemas que me estaba planteando. 
+Voy a explicar como hice la web de arriba a abajo, porque como he dado tantas vueltas, hacerlo en orden cronológico sería un lio.
+
+El enunciado es un elemento <header> con un <h> dentro, con su padding y su margen, no tiene demasiado misterio.
+Para el cuerpo, sabiendo que tenia que tener tres columnas, decidí dividirlo varias veces.
+El <body> en si mismo tiene un <div> centrado, donde iba a estructurar las tres columnas con información.
+
+La columna de la izquierda tiene la posición fija para que, aunque hagas scroll o estés en la entrada que estés, siempre tengas acceso al panel con la distintas entradas.
+Contiene una lista desordenada de elementos, que son anclas, que te llevan al blog en cuestión.
+
+La columna de la derecha es lo mismo que la de la izquierda.
+
+La columna central tiene todas las entradas del blog, que están sacadas de internet, y está centrada dentro del <div> grande, y no tiene mucho más.
+
+El footer está siempre al final de la página, y contiene el copyright, un botón para subir al principio del blog y unos iconos que te dirigirían a las redes sociales en caso de existir.
+Los botones de esta parte tienen un estilo que hace que se iluminen un poco al pasar el cursor por encima, con una transición conrta, mientras que los enlaces de las columnas solo se hacen más grandes.
+
+En general, la parte más complicada y la que más he tenido que investigar de esta práctica ha sido la del layout y como conseguir que cada parte se quedase en el sitio en el que quería que se quedara.
+Cuando abrí la web en un ordenador distinto, la web se había desconfigurado del todo y tuve que rehacerla más o menos para intentar que todo estuviese siempre en su sitio

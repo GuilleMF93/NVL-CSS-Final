@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>NVL-CSS-Final</title>
+ 	<script src="https://kit.fontawesome.com/63bcf3f1a4.js"></script>
+ 	<style>
+ 		
+ 		body{
+ 			background-color: #92DCE5;
+ 			font: normal normal normal 1.2rem sans-serif;
+ 			color: #f8f7f9;
+ 			line-height: 2rem;
+
+ 		}
+
+ 		header{
+ 			position: fixed;
+ 			top: 0;
+ 			left: 0;
+ 			padding: 0px;
+ 			background-color: #2B2D42;
+ 			height: 90px;
+ 			width: 100%;
+ 			color: #ffffff;
+ 			z-index: 1;
+ 			overflow: hidden;
+ 		}
+
+ 		footer{
+ 			background-color: #2B2D42;
+ 			bottom: 0;
+ 			height: 200px;
+ 			width: 100%;
+ 			color: #ffffff;
+ 			overflow: hidden;
+ 		}
+
+ 		.header_content{
+ 			position: relative;
+ 			margin:auto;
+ 			max-width: 1500px;
+ 			padding: 15px;
+ 			top: 0;
+ 		}
+
+ 		.content{
+ 			background-color: #f0f0f0;
+ 			border-radius: 0px;
+ 			width: 80%;
+ 			margin:auto;
+ 			padding-bottom: 200px;
+ 			overflow: auto;
+ 			padding: 15px;
+ 		}
+
+ 		.footer_content{
+ 			position: relative;
+ 			margin:auto;
+ 			bottom: 0px;
+ 			height: 100%;
+ 			width: 980px;
+ 			padding: 22px;
+ 		}
+
+ 		.copyright{
+ 			color: #F7EC59;
+ 			position: absolute;
+ 			bottom: 45px;
+ 			font: small-caps normal normal 75% sans-serif;
+ 			opacity: 0.8;
+ 		}
+
+ 		.primera_columna{
+ 			position: fixed;
+ 			top: 102px;
+ 			background-color: #2B2D42;
+ 			color: #f0f0f0;
+ 			border-radius: 5px;
+ 			padding: 15px;
+ 			float: left;
+ 			width: 200px;
+ 			min-height: 550px;
+ 			max-height: 750px;
+ 		}
+
+ 		.segunda_columna{
+ 			background-color: #2B2D42;
+ 			color: #f0f0f0;
+ 			top: 80px;
+ 			border-radius: 5px;
+ 			padding: 15px;
+ 			margin: auto;
+ 			margin-top: 80px;
+ 			width: 55%;
+ 			padding-right: 20px;
+ 			padding-left: 20px;
+ 		}
+
+ 		 .tercera_columna{
+			position: fixed;
+ 			top: 102px;
+ 			right: 10.5%;
+ 			background-color: #2B2D42;
+ 			color: #f0f0f0;
+ 			border-radius: 5px;
+ 			padding: 15px;
+ 			float: right;
+ 			width: 200px;
+ 			min-height: 300px;
+ 			max-height: 600px;
+ 		}
+
+ 		.titulo{
+ 			font: normal bold normal 150%/50% sans-serif;
+ 			color: #F7EC59;
+ 			padding-left: 15px;
+ 		}
+
+ 		b{
+ 			color: #F7EC59
+ 		}
+
+ 		hr{
+ 			border: 1px solid #F7EC59;
+ 		}
+
+ 		h4{
+ 			color: #F7EC59;
+ 		}
+
+ 		h3{
+ 			color: #F7EC59;
+ 		}
+
+ 		ul{
+ 			list-style-type:none;
+ 			padding: 10px;
+ 		}
+
+ 		li.link_entrada{
+ 			font: normal normal normal 75% sans-serif;
+ 		}
+
+ 		a.link_entrada:link{
+ 			text-decoration: none;
+ 			color: #f0f0f0;
+ 		}
+
+ 		a.link_entrada:visited{
+ 			text-decoration: none;
+ 			color: #f0f0f0;
+ 		}
+
+ 		a.link_entrada:hover{
+ 			text-decoration: underline;
+ 			color: #92DCE5;
+ 			font-size: 110%;
+ 		}
+
+ 		a.link_entrada:active{
+ 			text-decoration: underline;
+ 			color: #92DCE5;
+ 		}
+
+ 		a.anchor{
+ 			display:block;
+ 			position:relative;
+ 			top:-120px;
+ 		}
+
+ 		.texto_entrada{
+ 			font: normal normal normal 85% sans-serif;
+ 		}
+
+ 		.imagen_encaezado{
+ 			border: 1px solid gray;
+ 		}
+
+ 		.lista_logos{
+ 			position: absolute;
+ 			bottom: 141px;
+ 			left: 810px;
+ 		}
+
+ 		li.logo_button{
+ 			display: inline-block;
+ 			margin: 3px;
+ 			opacity: 0.8;
+			font-size: 32px;
+			transition: 0.2s;
+ 		}
+
+ 		li.logo_button:hover{
+ 			opacity: 1;
+ 		}
+
+ 		a.logo_button{
+ 			color: #F7EC59;
+ 		}
+
+ 		p.subir_arriba{
+			font: small-caps bold normal 100% sans-serif;
+			color: #F7EC59;
+			opacity: 0.8;
+			text-decoration: none;
+			transition: 0.2s;
+			border: 2px solid #F7EC59;
+			padding: 5px 12px;
+			position: absolute;
+ 			bottom: 110px;
+ 			left: 822px;
+ 		}
+
+ 		a.subir_arriba{
+ 			color: #f0f0f0;
+ 			text-decoration: none;
+ 		}
+
+ 		p.subir_arriba:link{
+ 			text-decoration: none;
+ 			color: #f0f0f0;
+ 			opacity: 0.8;
+ 		}
+
+ 		p.subir_arriba:visited{
+ 			text-decoration: none;
+ 			color: #f0f0f0
+ 			opacity: 0.8;
+ 		}
+
+ 		 p.subir_arriba:hover{
+ 			text-decoration: none;
+ 			color: #F7EC59;
+ 			opacity: 1;
+ 		}
+
+ 		 p.subir_arriba:active{
+ 		 	text-decoration: none;
+ 			color: #F7EC59;
+ 			opacity: 1;
+ 		}
+
+ 	</style>
+ </head>
+
+ <header>
+ 	<div class="header_content">
+ 		<p class="titulo">BlogBlog</p>
+ 	</div>
+ </header>
+
+ <body>
+ 	<a name="entrada_1" class="anchor"></a>
+	<div class="content">
+		
+		<div class="primera_columna">
+			<h4 class="entradas"> Entradas </h4>
+			<ul>
+				<a class="link_entrada" href="#entrada_1"><li class="link_entrada">WordPress</li></a><br>
+				<a class="link_entrada" href="#entrada_2"><li class="link_entrada">Blogger</li></a><br>
+				<a class="link_entrada" href="#entrada_3"><li class="link_entrada">Wix</li></a><br>
+				<a class="link_entrada" href="#entrada_4"><li class="link_entrada">Medium</li></a><br>
+				<a class="link_entrada" href="#entrada_5"><li class="link_entrada">Tumblr</li></a><br>
+				<a class="link_entrada" href="#entrada_6"><li class="link_entrada">Overblog</li></a><br>
+				<a class="link_entrada" href="#entrada_7"><li class="link_entrada">Obolog</li></a><br>
+			</ul>
+		</div>
+
+		<div class="segunda_columna">
+			<div class="entradas">
+
+			<hr>
+			<hr>
+				<h3>WordPress</h3>
+				<img class="imagen_encaezado" src="wordpress.png" alt="WordPress" height="" width="660";>
+				<br>
+					<div class="texto_entrada">
+						<p>WordPress la plataforma <b>más utilizada</b> y conocida para crear blogs y cuenta con una versión en la que no tienes que pagar nada por el hosting <b>(WordPress.com)</b>. WordPress se considera el mejor gestor de contenidos para el <b>posicionamiento</b> en buscadores. Destaca por su facilidad de gestión y está pensado también para dispositivos móviles.</p>
+						<p>La versión gratuita alberga <b>3GB de espacio</b> de almacenamiento. Del mismo modo, ofrece una amplia variedad de temas y plugins, aunque hay un catálogo de pago también (Premium). Por otro lado, la plataforma te permite crear tu propio blog e incluso personalizarlo mucho más si lo instalas en tu servidor y utilizas un dominio propio <b>(la versión de pago WordPress.org)</b>.</p>
+					</div>
+				</div>
+				<hr>
+				<hr>
+
+			<a name="entrada_2" class="anchor"></a>
+			<div class="entradas">
+				<h3>Blogger</h3>
+				<img class="imagen_encaezado" src="blogger.jpg" alt="Blogger" height="" width="660">
+				<br>
+					<div class="texto_entrada">
+						<p>La plataforma de creación de Google te permite crear blogs <b>sin necesidad</b> de tener hosting propio. Además puedes utilizar dominio propio (o no) al igual que en WordPress. Tanto WordPress como Blogger tienen la posibilidad de tenerlo todo gratis o pagar por dominio, aunque blogger no permite la opción de <b>utilizar hosting propio</b> ya que los blogs se alojan en servidores de Google.</p>
+						<p>Blogger es un servicio gratuito en la nube que no tiene tantas funcionalidades ni es tan completo como WordPress, pero es <b>muy utilizado</b> incluso por negocios que cuentan con un bajo presupuesto. También existe la posibilidad de <b>ganar dinero</b> con esta plataforma, ya que puedes introducir publicidad en tu página mostrando anuncios de <b>AdSense</b> y de otros servicios.</p>
+					</div>
+				</div>
+				<hr>
+				<hr>
+
+			<a name="entrada_3" class="anchor"></a>
+			<div class="entradas">
+				<h3>Wix</h3>
+				<img class="imagen_encaezado" src="wix.jpg" alt="Wix" height="" width="660">
+				<br>
+					<div class="texto_entrada">
+						<p>Es otra solución para crear un blog gratis de una forma totalmente intuitiva y personalizada que se basa en el sistema <b>“en la nube”</b>. Nada más entrar puedes elegir qué tipo de web o blog quieres crear que se adapte a tu medida.</p>
+						<p>Wix apuesta por un <b>hosting seguro</b>, sencillas herramientas para gestionar el <b>SEO</b>, más de <b>500 plantillas</b> y un amplio banco de imágenes profesionales de alta resolución. Permite integrar el código HTML para agregar <b>encuestas, formularios</b> u otras opciones.</p>
+					</div>
+				</div>
+				<hr>
+				<hr>
+
+			<a name="entrada_4" class="anchor"></a>
+			<div class="entradas">
+				<h3>Medium</h3>
+				<img  class="imagen_encaezado" src="medium.jpg" alt="Medium" height="" width="660">
+				<br>
+					<div class="texto_entrada">
+						<p>Plataforma para crear blogs iniciada por el <b>cofundador de Twitter, Evan Williams</b>, en la que puedes hacer tu propio blog teniendo en cuenta que lo único importante en este caso es el <b>contenido</b> y que las opciones de personalización en esta plataforma son limitadas. Hace un tiempo os explicamos todos los detalles sobre <b>cómo sacarle partido en tu estrategia online.</b></p>
+						<p>Medium es un plataforma muy social. Fue fundada en 2012 y ha evolucionado hasta convertirse en una especie de <b>comunidad</b> donde publican escritores, bloggers, periodistas y expertos. Por ello, es una buena opción si quieres llegar a un <b>mayor número de personas</b> con intereses similares a los tuyos.</p>
+					</div>
+				</div>
+				<hr>
+				<hr>
+
+			<a name="entrada_5" class="anchor"></a>
+			<div class="entradas">
+				<h3>Tumblr</h3>
+				<img class="imagen_encaezado" src="tumblr.png" alt="Tumblr" height="" width="660">
+				<br>
+					<div class="texto_entrada">
+						<p>Tumblr es una plataforma de <b>microblogging</b> en que puedes escribir, poner enlaces, vídeos, citas, imágenes y mucho más. Es <b>sencillo e intuitivo</b>, aunque por supuesto no es tan completo como algunas de las opciones anteriores.</p>
+						<p>Es algo <b>similar a Twitter</b> pero con mayores posibilidades para hacer un blog. Al igual que en el caso de Medium, en esta plataforma resulta mucho más fácil encontrar o conectar con contenidos o perfiles que vayan en armonía con <b>nuestros intereses</b>.</p>
+					</div>
+				</div>
+				<hr>
+				<hr>
+
+			<a name="entrada_6" class="anchor"></a>
+			<div class="entradas">
+				<h3>Overblog</h3>
+				<img class="imagen_encaezado" src="overblog.jpg" alt="Overblog" height="" width="660">
+				<br>
+					<div class="texto_entrada">
+						<p>Un sitio donde podrás crear tu propio blog gratis con algunas opciones básicas de personalización. Tiene un <b>directorio</b> de blogs, comunidad, top blogs y más cosas. Antes de su migración a lo que ahora es Overblog, la empresa <b>pagaba a redactores</b> por crear contenidos.</p>
+						<p>La oferta gratuita incorpora <b>entradas y almacenamiento ilimitados</b>. Si no te importa pagar un poco (2,29 euros al mes) puedes <b>eliminar la publicidad</b> de tu blog o restringir el acceso a tu espacio mediante una contraseña.</p><br>
+					</div>
+				</div>
+				<hr>
+				<hr>
+
+			<a name="entrada_7" class="anchor"></a>
+			<div class="entradas">
+				<h3>Obolog</h3>
+				<img class="imagen_encaezado" src="obolog.jpg" alt="Obolog">
+				<br>
+					<div class="texto_entrada">
+						<p>Obolog es otro sitio donde puedes crear un blog responsive con integración con redes sociales, diversas funciones y posibilidad de <b>dominio propio sin coste</b> adicional. Incluye hasta <b>6 blogs</b> con cada cuenta de usuario y tiene <b>100MB</b> de espacio para tus álbumes de fotos.</p>
+						<p>Esta plataforma española tiene el editor visual <b>WYSIWYG</b> (mismo que WordPress) y ofrece <b>estadísticas de acceso</b> y lectura de mensajes. No cuenta con gestión de plugins, aunque es rápida, funcional y … es gratis.</p>
+					</div>
+				</div>
+				<hr>
+				<hr>
+		</div>
+		
+		<div class="tercera_columna">
+			<h4 class="destacados"> Destacados </h4>
+			<ul>
+				<a class="link_entrada" href="#entrada_5"><li class="link_entrada">Destacado 1</li></a><br>
+				<a class="link_entrada" href="#entrada_3"><li class="link_entrada">Destacado 2</li></a><br>
+				<a class="link_entrada" href="#entrada_6"><li class="link_entrada">Destacado 3</li></a><br>
+			</ul>
+		</div>
+	</div>
+ </div>
+ </body>
+
+ <footer>
+ 	<div class="footer_content">
+ 		<div class="copyright">
+ 			<p>&#169 guillermo marcos feijóo 2019</p>
+ 		</div>
+
+ 		<div class="logos">
+ 			<ul class="lista_logos">
+ 				<li class="logo_button"><a class="logo_button" href="#"><i class="fab fa-facebook-square"></i></a></li>
+ 				<li class="logo_button"><a class="logo_button" href="#"><i class="fab fa-twitter-square"></i></a></li>
+ 				<li class="logo_button"><a class="logo_button" href="#"><i class="fab fa-instagram"></i></a></li>
+ 				<li class="logo_button"><a class="logo_button" href="#"><i class="fab fa-linkedin"></i></a></li>
+ 			</ul>
+ 		</div>
+
+ 		 <div class="subir_arriba">
+ 			<a class="subir_arriba" href="#entrada_1"><p class="subir_arriba">subir arriba</p></a> 
+ 		</div>
+
+ 	</div>
+ </footer>
+
+</html>
